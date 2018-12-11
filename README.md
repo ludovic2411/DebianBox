@@ -1,12 +1,12 @@
 # DebianBox
 Config for a clean developpment environment using a Debian Virtual Machine
 
-##Running development server:
+## Running development server:
 
 angular:ng serve --host 10.19.66.6 
 react: HOST=10.19.66.6 yarn start
 
-##Enable hotreload
+## Enable hotreload
 
 angular: in DebianBox run:
 vagrant plugin install vagrant-notify-forwarder
