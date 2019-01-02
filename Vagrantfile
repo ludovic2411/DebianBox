@@ -7,7 +7,8 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "VirtulaBox"
   config.vm.provision :shell, path: "node.sh", privileged: false
   #config.vm.provision :shell, path: "angular.sh", privileged: false
-  config.vm.provision :shell, path: "react.sh", privileged: false
+  #config.vm.provision :shell, path: "react.sh", privileged: false
+  config.vm.provision :shell, path: "vue.sh", privileged: false
   config.vm.provision :shell, path: "yarn.sh", privileged: false
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "1024"
